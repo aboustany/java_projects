@@ -1,0 +1,6 @@
+2024-03-20T18:56:43.058276100 : Transaction successful for item: Pepsi, Payment: 3.0, Change: 1.50
+2024-03-20T19:01:30.186321100 : Transaction successful for item: Juice, Payment: $2.0, Change: $0.75
+2024-03-20T19:02:31.442484500 : Transaction successful for item: Coke, Payment: $3.0, Change: $1.50
+2024-03-20T19:02:46.821164200 : Transaction failed for item: Coke, Payment: $3.0, Reason: Item out of stock.
+2024-03-20T19:03:09.607995600 : Transaction failed for item: Sandwich, Payment: $2.0, Reason: Insufficient funds.
+2024-03-25T14:34:27.213837400 : Transaction successful for item: Coffee, Payment: $3.5, Change: $2.30

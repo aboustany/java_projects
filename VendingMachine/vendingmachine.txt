@@ -1,0 +1,10 @@
+Water::1.00::20
+Sandwich::2.50::10
+Tea::1.10::19
+Coke::1.50::0
+Chips::0.50::25
+Pepsi::1.50::14
+Chocolate::0.75::30
+Juice::1.25::14
+Coffee::1.20::18
+Gum::0.25::40

@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #007bff;
+  --text-color: #333;
+  --background-color: #f8f9fa;
+  --link-color: #007bff;
+  --link-hover-color: #0056b3;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  padding: 20px;
+  margin: 0;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--link-hover-color);
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.link {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: var(--link-hover-color);
+}
+
+.round {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  button, input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
